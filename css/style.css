@@ -16,7 +16,7 @@ body{
     margin: auto;
 }
 
-/* HEADER-UP */
+/* header-up */
 .header-up .container{
     display: flex;
     justify-content: center;
@@ -51,9 +51,9 @@ header ul{
 header li{
     padding: 0 5px;
 }
-/* /HEADER-UP */
+/* /header-up */
 
-/* HEADER-DOWN */
+/* header-down */
 .header-down{
     padding: 50px 0;
 }
@@ -62,7 +62,31 @@ header li{
     width: 75%;
     margin: auto;
 }
-/* /HEADER-DOWN */
+/* /header-down */
+
+/* main */
+main .section{
+    padding: 50px 0;
+}
+  
+main .section .container{
+    display: flex;
+    justify-content: center;
+}
+  
+.section .first-article{
+    width: 60%;
+}
+  
+.section .second-article{
+    width: 40%;
+}
+
+.section .last-article{
+    width: 100%;
+    margin: auto;
+}
+/* /main */
 
 /* /COMMON */
 
@@ -81,9 +105,32 @@ header li{
     border-bottom: 4px solid #ADD8E6;
 }
   
-  .debug .box{
+.debug .box{
     background-color: #EE82EE;
     border: 2px dashed;
     height: 400px; 
+}
+
+.debug .section:nth-child(even){
+    background-color: #D3D3D3;
+}
+  
+.debug .section .container .article{
+    border: 2px dashed;
+    height: 480px;
+}
+  
+.debug .first-article{
+    background-color: #1E90FF;
+}
+  
+.debug .second-article{
+    background-color: #FFC0CB;
+}
+
+.debug .last-article{
+    background-color: #228B22;
+    border: 2px dashed;
+    height: 910px;
 }
 /* /DEBUG */
