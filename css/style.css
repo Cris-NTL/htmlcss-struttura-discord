@@ -1,0 +1,89 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+/* /RESET */
+
+/* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+/* HEADER-UP */
+.header-up .container{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.header-up .container > *{
+    padding: 10px;
+}
+
+header .logo, 
+header .login{
+  width: 20%;
+}
+
+header .login{
+    text-align: right;
+}
+  
+header .link{
+    width: 60%;
+    text-align: center;
+}
+  
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+  
+header li{
+    padding: 0 5px;
+}
+/* /HEADER-UP */
+
+/* HEADER-DOWN */
+.header-down{
+    padding: 50px 0;
+}
+  
+.box{
+    width: 75%;
+    margin: auto;
+}
+/* /HEADER-DOWN */
+
+/* /COMMON */
+
+/* DEBUG */
+.debug .header-up{
+    background-color: #ADD8E6;
+}
+
+.debug .header-up .container > *{
+    background-color: #DAA520;
+    border: 2px dashed;
+}
+
+.debug .header-down{
+    background-color: #00008B;
+    border-bottom: 4px solid #ADD8E6;
+}
+  
+  .debug .box{
+    background-color: #EE82EE;
+    border: 2px dashed;
+    height: 400px; 
+}
+/* /DEBUG */
