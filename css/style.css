@@ -110,6 +110,19 @@ main .section .container{
 /* /footer-up */
 
 /* footer-down */
+.footer-end{
+    width: 100%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-end .logo,
+.footer-end .button{
+    padding: 5px 10px;
+    font-size: 20px;
+}
 /* /footer-down */
 /* /COMMON */
 
@@ -180,5 +193,16 @@ main .section .container{
   
 .debug .small{
     border: 2px dashed white;
+}
+
+.debug .footer-end{
+    background-color: #7FFFD4;
+    height: 80px;
+}
+  
+.debug .footer-end .logo,
+.debug .footer-end .button{
+    background-color: #FFB6C1;
+    border: 2px dashed;
 }
 /* /DEBUG */
