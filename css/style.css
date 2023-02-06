@@ -88,6 +88,29 @@ main .section .container{
 }
 /* /main */
 
+/* footer-up */
+.footer-up .container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 40px;
+}
+ 
+.large-article{
+    width: 30%;
+}
+  
+.small-articles{
+    display: flex;
+    width: calc(100% - 30%);
+}
+  
+.small{
+    width: 25%;
+}
+/* /footer-up */
+
+/* footer-down */
+/* /footer-down */
 /* /COMMON */
 
 /* DEBUG */
@@ -132,5 +155,30 @@ main .section .container{
     background-color: #228B22;
     border: 2px dashed;
     height: 910px;
+}
+
+.debug footer{
+    background-color: #23272A;
+}
+  
+.debug .footer-up{
+    border-bottom: 2px solid white;
+}
+  
+.debug .footer-up .container > *{
+    height: 500px;
+    border: 2px dashed;
+}
+  
+.debug .large-article{
+    background-color: #F08080;
+}
+  
+.debug .small-articles{
+    background-color: #20B2AA;
+}
+  
+.debug .small{
+    border: 2px dashed white;
 }
 /* /DEBUG */
