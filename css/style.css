@@ -66,6 +66,7 @@ header li{
 
 /* main */
 main .section{
+    display: flex;
     padding: 50px 0;
 }
   
@@ -73,7 +74,11 @@ main .section .container{
     display: flex;
     justify-content: center;
 }
-  
+
+main .section .middle{
+    flex-direction: row-reverse;
+}
+
 .section .first-article{
     width: 60%;
 }
